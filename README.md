@@ -13,7 +13,7 @@ Simple library and command line utility for credit scoring by predicting the pro
 In this code I am trying to solve this classification challenge by implementing several classifiers: An ensemble method of three top rank methods; a gradient boosting algorithm, a regression random forest, and Logistic Regression Classifier by Soft Voting/Majority Rule classifier; Gradient Boosting Classifier, Random Forest Classifier,
 Extra Trees Classifier, Logistic Regression Classifier, Gaussian Naive Bayes, Decision Tree Classifier, and A feed-forward neural network with a single hidden layer. 
 
-## Accuracy metric is used to evalutae the performance classifires. 
+## Accuracy metric is used to evalutae the performance of classifires. 
 Accuracy metric is the number of correct predictions made divided by the total number of predictions made.
 
 ### How to use it
