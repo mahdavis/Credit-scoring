@@ -13,14 +13,13 @@ Simple library and command line utility for credit scoring by predicting the pro
 In this code I am trying to solve this classification challenge by implementing several classifiers: An ensemble method of three top rank methods; a gradient boosting algorithm, a regression random forest, and Logistic Regression Classifier by Soft Voting/Majority Rule classifier; Gradient Boosting Classifier, Random Forest Classifier,
 Extra Trees Classifier, Logistic Regression Classifier, Gaussian Naive Bayes, Decision Tree Classifier, and A feed-forward neural network with a single hidden layer. 
 
-####### Classifiers are sorted by the descending order of their accuracy values. 
-
+## Accuracy metric is used to evalutae the performance classifires. 
 Accuracy metric is the number of correct predictions made divided by the total number of predictions made.
 
 ### How to use it
 Run: `train.py
 
-## sample output
+## Sample output
 Classifiers are sorted by the descending order of their accuracy values
 Rank 1: An ensemble method by Soft Voting/Majority Rule classifier-Accuracy score (test): 0.9314459133616031
 Rank 2: Random Forest Classifier-Accuracy score (test): 0.9312796208530806
