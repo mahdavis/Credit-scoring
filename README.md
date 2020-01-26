@@ -21,12 +21,12 @@ Run: `train.py
 
 ## Sample output
 Classifiers are sorted by the descending order of their accuracy values
-Rank 1: An ensemble method by Soft Voting/Majority Rule classifier-Accuracy score (test): 0.9314459133616031
-Rank 2: Random Forest Classifier-Accuracy score (test): 0.9312796208530806
-Rank 3: Gradient Boosting Classifier-Accuracy score (test): 0.9311964745988193
-Rank 4: Extra Trees Classifier-Accuracy score (test): 0.9292841107508106
-Rank 5: Logistic Regression Classifier-Accuracy score (test): 0.9292841107508106
-Rank 6: Gaussian Naive Bayes-Accuracy score (test): 0.9284942213353289
-Rank 7: Decision Tree Classifier-Accuracy score (test): 0.8892907624511516
-Rank 8: A feed-forward neural network with a single hidden layer-Accuracy score (test): 0.07
+Rank 1: An ensemble method by Soft Voting/Majority Rule classifier-Accuracy score (test): 0.767072715033866
+Rank 2: Gradient Boosting Classifier-Accuracy score (test): 0.7443418703132818
+Rank 3: Logistic Regression Classifier-Accuracy score (test): 0.7403727699009461
+Rank 4: Random Forest Classifier-Accuracy score (test): 0.7320771745572275
+Rank 5: Extra Trees Classifier-Accuracy score (test): 0.713382551010597
+Rank 6: Gaussian Naive Bayes-Accuracy score (test): 0.6815624713479247
+Rank 7: Decision Tree Classifier-Accuracy score (test): 0.5914128909514841
+Rank 8: A feed-forward neural network with a single hidden layer-Accuracy score (test): 0.0001
 
