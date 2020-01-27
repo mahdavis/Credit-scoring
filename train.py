@@ -40,6 +40,13 @@ def Random_Forest_Classifier(X_train, Y_train):
     return clf_rfc
 #####################################
 def Logistic_Regression(X_train, Y_train):
+    penalty = ['l1', 'l2']
+    C = np.logspace(0, 4, 10)
+    hyperparameters = dict(C=C, penalty=penalty)
+    clf_lr = LogisticRegression()
+    clf = GridSearchCV(clf_lr, hyperparameters, cv=1, verbose=0)
+    clf_lr = clf.fit(X_train, Y_train)
+    clf_lr = clf_lr.fit(X_train, Y_train)
     clf_lr = LogisticRegression(random_state=0).fit(X_train, Y_train)
     return clf_lr
 #######################################
